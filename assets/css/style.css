@@ -1,0 +1,253 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar-nav {
+    gap: 5px;
+}
+
+.nav-link {
+    padding: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    border-bottom: 3px solid #912BBC;
+    color: #912BBC;
+    transition: .1s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #902bbc37;
+    color: #912BBC;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+section {
+    padding: 100px 20px;
+    transition: 2s;
+}
+
+.custom-purple {
+    background: #912BBC;
+    color: white;
+    width: 2.8%;
+    height: 2%;
+}
+
+/* button */
+
+.btn-outline-purple {
+    border-radius: 0 !important;
+    border: 1px solid #912BBC;
+    color: #912BBC;
+}
+
+.btn-outline-purple:hover {
+    background-color: #902bbc37;
+    border: 1px solid #912BBC;
+    color: #912BBC;
+}
+
+.border-start-1 {
+    border-radius: 0 !important;
+    border: 1px solid #912BBC;
+    color: #912BBC;
+}
+
+.border-start-1:hover {
+    background-color: #902bbc37;
+    border-radius: 0 !important;
+    border: 1px solid #912BBC;
+    color: #912BBC;
+}
+
+.border-end-1 {
+    border-radius: 0 !important;
+    border: 1px solid #912BBC;
+    color: #912BBC;
+}
+
+.text-purple {
+    color: #912BBC;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.card-purple {
+    border-radius: 0 !important;
+    border: 1px solid #912BBC;
+}
+
+.card-outline-purple {
+    border: 1px solid #912BBC;
+}
+
+.card-purple:hover {
+    background-color: #902bbc37;
+    border: 1px solid #912BBC;
+    color: #912BBC;
+}
+
+#Home {
+    background: url('../images/bg.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+#About {
+    background: url('../images/bg1.png') center no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+#Services {
+    min-height: 90vh;
+}
+
+
+#Explore {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, hsla(0, 12%, 92%, 0.708), rgba(211, 206, 206, 0.315)), url('../images/bg.jpg');
+    min-height: 90vh;
+}
+
+#offers {
+    min-height: 90vh;
+}
+
+#offers .img:hover {
+    box-shadow: 1px 1px 5px 4px #902bbc75 !important;
+}
+
+#Footer {
+    min-height: 40%;
+}
+
+.accordion-button {
+    color: #912BBC !important;
+    border: 2px solid #912BBC !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: #912BBC !important;
+    opacity: .9;
+}
+
+.accordion-button:hover:not(.collapse) {
+    color: #912BBC !important;
+    background: #902bbc41 !important;
+}
+
+.accordion-button::after {
+    content: "";
+
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    content: "";
+}
+
+.accordion-collapse {
+    border: 1px solid #912BBC !important;
+    border-left: 5px solid #730f9e !important;
+}
+
+.border-top {
+    border-top: 1px solid #912BBC !important;
+}
+
+input:focus {
+    box-shadow: 0px 0px 4px 1px #912BBC !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 18px;
+    }
+
+    .navbar-nav {
+        gap: 1px !important;
+    }
+
+    .nav-link {
+        padding: 2px !important;
+        text-align: center !important;
+    }
+
+    .navbar-nav .nav-link.active {
+        border-bottom: 1px solid #912BBC;
+        background-color: #902bbc37;
+        color: #912BBC;
+        transition: .1s;
+    }
+
+    .context {
+        margin-top: -20% !important;
+        text-align: center;
+
+    }
+
+    .mt-6 {
+        margin-top: -1% !important;
+    }
+
+    .fs-7 {
+        margin-top: -1% !important;
+        font-size: 18px !important;
+    }
+
+    .custom-purple {
+        background: #912BBC;
+        color: white;
+        width: 10%;
+        height: 2%;
+    }
+
+    .context-2 {
+        text-align: center;
+    }
+
+    .context-3 {
+        margin-left: -7% !important;
+        margin-right: -7% !important;
+        padding-left: -7% !important;
+        padding-right: -7% !important;
+    }
+
+    .context-4 {
+        margin-top: -25% !important;
+        margin-bottom: 22% !important;
+    }
+
+    #offers .btn-outline-purple {
+        margin-top: 10px !important;
+    }
+}
