@@ -254,6 +254,10 @@ input:focus {
     #Home .row {
         padding: 10px 10px 2px 10px !important;
     }
+    
+    #Home .row .order-2 {
+        padding-top: 20px !important;
+    }
 
     #Footer .card-title {
         text-align: center !important;
