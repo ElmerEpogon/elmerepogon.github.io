@@ -251,6 +251,10 @@ input:focus {
         margin-top: 10px !important;
     }
 
+    #Home .row {
+        padding: 10px 10px !important;
+    }
+
     .row .order-1 {
         margin-top: -50px !important;
     }
