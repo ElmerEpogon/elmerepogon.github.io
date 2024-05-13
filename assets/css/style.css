@@ -101,13 +101,13 @@ section {
 }
 
 #Home {
-    background: url('../images/bg.jpg') center no-repeat;
+    background:  linear-gradient(to right, hsla(0, 12%, 92%, 0.708), rgba(211, 206, 206, 0.315)), url('../images/bg.jpg') center no-repeat;
     background-size: cover;
     min-height: 90vh;
 }
 
 #About {
-    background: url('../images/bg1.png') center no-repeat;
+    background:  linear-gradient(to right, hsla(0, 12%, 92%, 0.708), rgba(211, 206, 206, 0.315)), url('../images/bg1.png') center no-repeat;
     background-size: cover;
     min-height: 90vh;
 }
@@ -252,7 +252,7 @@ input:focus {
     }
 
     #Home .row {
-        padding: 10px 10px 5px 10px !important;
+        padding: 10px !important;
     }
     
     #Home .row .order-2 {
