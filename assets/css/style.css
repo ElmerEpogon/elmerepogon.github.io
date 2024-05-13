@@ -252,10 +252,10 @@ input:focus {
     }
 
     .order-1 {
-        margin-top: -20px !important;
+        margin-top: -50px !important;
     }
     
     .order-2 {
-        margin-top: 30px !important;
+        margin-top: 100px !important;
     }
 }
