@@ -252,14 +252,14 @@ input:focus {
     }
 
     #Home .row {
-        padding: 10px 10px !important;
+        padding: 10px 10px 2px !important;
     }
 
     #Home .row .order-2 {
-        margin-top: 20px !important;
+        margin-top: 5px !important;
     }
 
-    #Footer {
+    #Footer h5 {
         text-align: center !important;
     }
 }
