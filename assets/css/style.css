@@ -250,4 +250,12 @@ input:focus {
     #offers .btn-outline-purple {
         margin-top: 10px !important;
     }
+
+    .order-1 {
+        margin-top: -10px !important;
+    }
+    
+    .order-2 {
+        margin-top: 5px !important;
+    }
 }
