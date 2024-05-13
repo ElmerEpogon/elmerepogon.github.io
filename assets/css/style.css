@@ -255,7 +255,11 @@ input:focus {
         padding: 10px 10px !important;
     }
 
-    .row .order-2 {
+    #Home .row .order-2 {
         margin-top: 20px !important;
+    }
+
+    #Footer {
+        text-align: center !important;
     }
 }
